@@ -314,7 +314,7 @@ header{
 .home_description{
     margin-bottom: 2rem;
     color: var(--first-color-alt);
-    max-width: fit-content;
+    max-width: 50%;
 }
 
 .home_scroll{
