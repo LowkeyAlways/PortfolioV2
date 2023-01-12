@@ -33,7 +33,7 @@ img{
 }
 h1,h2,h3,h4{
     font-weight: var(--font-semi-bold);
-    color: var(--first-color-alt);
+    color: var(--first-color);
 }
 
 
@@ -52,7 +52,7 @@ h1,h2,h3,h4{
     --text-color: rgb(55, 56, 57);
     --text-color-light: rgb(1, 1, 1);
     --input-color: rgb(240, 238, 252);
-    --body-color: rgb(40 157 222);
+    --body-color: #1d2327;
     --scrollbar: rgb(186, 186, 201);
     --scrollbar-thumb: rgb(199, 9, 66);
     --container-color: #fff;
@@ -72,8 +72,8 @@ h1,h2,h3,h4{
     --h1-font-size: 1.8rem;
     --h2-font-size: 1.50rem;
     --h3-font-size: 1.4rem;
-    --normal-font-size: 1.4rem;
-    --small-font-size: 1.2rem;
+    --normal-font-size: 1.6rem;
+    --small-font-size: 1.5rem;
     --smaller-font-size: .9rem;
     --placeholder-font-size: 1.35rem;
 
@@ -89,7 +89,6 @@ h1,h2,h3,h4{
             --h1-font-size: 2.25rem;
             --h2-font-size: 1.5rem;
             --h3-font-size: 1.25rem;
-            --normal-font-size: 1.6rem;
             --small-font-size: .975rem;
             --smaller-font-size: .913rem;
         }
@@ -123,8 +122,9 @@ section{
 
 .section_subtitle{
     display: block;
-    font-size: var(--small-font-size);
+    font-size: 1.1rem;
     margin-bottom: 3rem;
+    color: var(--first-color);
 }
 
 .section_title,
@@ -217,7 +217,7 @@ header{
     flex-direction: column;
     align-items: center;
     font-size: 1.3rem;
-    color: var(--first-color-alt);
+    color: var(--first-color);
     font-weight: var(--font-medium);
     transition: 0.2s;
 }
@@ -302,6 +302,7 @@ header{
 
 .home_title{
     font-size: var(--big-font-size);
+    color: var(--first-color-alt);
 }
 
 .home_subtitle{
@@ -388,6 +389,7 @@ header{
 }
 .skills2_content h2{
     text-align: center;
+    color: var(--first-color-alt);
 
 }
 .skills2_content p{
@@ -509,11 +511,12 @@ header{
 .experience_title{
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
+    color: var(--first-color-alt);
 }
 
 .experience_subtitle{
     display: inline-block;
-    font-size: var(--small-font-size);
+    font-size: 1.4rem;
     margin-bottom: 1rem;
 }
 
@@ -565,6 +568,9 @@ header{
     color: var(--first-color-alt);
 }
 
+.date{
+    font-size: 1.1rem;
+}
     /*============== PROJET ==============*/
 .projet_container{
     overflow: initial;
@@ -591,6 +597,7 @@ header{
 .projet_title{
     font-size: var(--h3-font-size);
     margin-bottom: .5rem;
+    color: var(--first-color-alt);
 }
 
 .projet_description{
@@ -621,6 +628,7 @@ header{
 .contact_title{
     font-size: var(--h3-font-size);
     font-weight: var(--font-medium);
+    color: var(--first-color-alt);
 }
 
 .contact_subtitle{
@@ -679,7 +687,8 @@ header{
 }
 
 .footer_subtitle{
-    font-size: var(--small-font-size);
+    font-size: 1.1rem;
+
 }
 
 .footer_links{
@@ -703,7 +712,7 @@ header{
 }
 
 .footer_copy{
-    font-size: var(--small-font-size);
+    font-size: 1.1rem;
     text-align: center;
     color: var(--first-color-lighter);
     margin-top: 3rem;
@@ -920,6 +929,7 @@ header{
         flex-direction: column;
         align-items: center;
         margin: 45px;
+        
     }
     
 }
