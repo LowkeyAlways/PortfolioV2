@@ -671,7 +671,7 @@ header{
 
 .footer_container{
     row-gap: 3.5rem;
-    background: #080808;
+    background: var(--first-color-alt);
     color: #fff;
 }
 
